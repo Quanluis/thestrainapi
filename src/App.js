@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Nav from './Nav';
+import About from './About';
 import './App.css';
 
 class App extends Component {
@@ -16,6 +17,7 @@ class App extends Component {
                 <br/>
         <h1>{this.state.title}</h1>
         <img className = "Cannabis" src={require('./images/Cannabis.svg')} alt=""/>
+        <About />
       </div>
     );
   }
