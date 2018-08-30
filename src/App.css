@@ -2,11 +2,32 @@
   text-align: center;
   background-color: #90B887;
 }
+
+ul {
+   list-style-type: none;
+   background-color: black;
+   margin: 0;
+   padding: 0;
+}
+
+ul a {
+  color: white;
+  padding: 1rem;
+  float: left;
+  font-size: 1rem;
+  display: inline-flex;
+  text-decoration: none;
+  
+}
+a:hover {
+  color: grey;
+}
 h1 {
   color: green;
   font-size: 3rem;
   font-family: Georgia, serif;
 }
+
 .Cannabis {
   width: 10rem;
 }
