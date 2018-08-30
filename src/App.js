@@ -11,6 +11,7 @@ class App extends Component {
   render() {
     return (
       <div>
+        <head><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arapey"/></head>
                 <Nav />
                 <br/>
         <h1>{this.state.title}</h1>
